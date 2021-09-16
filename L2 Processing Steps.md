@@ -1,5 +1,6 @@
 # Steps for L2 processing:
 Mosaic and map daily L2 images using gpt operator.
+
 Three product suites: OC, SST, IOP.
 Input files: /srv/imars-objects/gom/L2_MODA_r2018/OC (or SST4, SST, IOP).
 Tasks:
