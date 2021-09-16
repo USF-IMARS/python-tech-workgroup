@@ -1,7 +1,7 @@
 # Steps for L2 processing:
-Mosaic and map daily L2 images using gpt operator
-Three product suites: OC, SST, IOP
-input files: /srv/imars-objects/gom/L2_MODA_r2018/OC (or SST4, SST, IOP)
+Mosaic and map daily L2 images using gpt operator.
+Three product suites: OC, SST, IOP.
+Input files: /srv/imars-objects/gom/L2_MODA_r2018/OC (or SST4, SST, IOP).
 Tasks:
 1. Read input files and parse filenames by year and day of year (DOY)
 2. Loop on year/DOY and create a gpt calling sequence for each year/DOY/product suite
