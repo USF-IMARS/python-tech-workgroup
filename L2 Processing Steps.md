@@ -15,5 +15,7 @@ Tasks:
 
 Parameters to consider:
 Sensors: VSNPP and MODA (could add S3)
+
 ROI: fk, fgb, wfs, gom, other?
+
 Product suites: OC, SST/SST4, IOP
