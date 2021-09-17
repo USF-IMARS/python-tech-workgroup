@@ -1,7 +1,19 @@
 # python-tech-workgroup
-IMaRS python technical working group.
+2021 Fall IMaRS python technical working group
 
-2021 Fall IMaRS Tech Python Working group run by Dan & Tylar to pursue the following goals:
+Use the badge below to open this repository using mybinder.org & open `.ipynb` project files.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/USF-IMARS/python-tech-workgroup/HEAD)
+
+
+
+
+
+
+
+
+
+----------------------------------------
 
 * streamline the seascape products
 * serve seascape products for other MBON nodes
