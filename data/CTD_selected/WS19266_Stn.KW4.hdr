@@ -1,0 +1,30 @@
+* Sea-Bird SBE 9 Data File:
+* FileName = C:\CTD\Cruise_Data\WS19266_Kelble\WS19266_Stn.KW4.hdr
+* Software Version Seasave V 7.26.7.107
+* Temperature SN = 2462 MTG:173
+* Conductivity SN = 2856 MTG:62
+* Number of Bytes Per Scan = 40
+* Number of Voltage Words = 5
+* Number of Scans Averaged by the Deck Unit = 1
+* System UpLoad Time = Sep 24 2019 20:26:27
+* NMEA Latitude = 25 00.75 N
+* NMEA Longitude = 082 02.43 W
+* NMEA UTC (Time) = Sep 24 2019  20:26:26
+* Store Lat/Lon Data = Append to Every Scan
+* SBE 11plus V 5.1g
+* number of scans to average = 1
+* pressure baud rate = 9600
+* NMEA baud rate = 4800
+* surface PAR voltage added to scan
+* A/D offset = 4
+* Latitude/Longitude added to scan
+* GPIB address = 1
+* advance primary conductivity  0.073 seconds
+* advance secondary conductivity  0.073 seconds
+* autorun on power up is disabled
+* S>
+** Ship: R/V FG Walton Smith
+** Florida Straits Cable Calibration
+** FC1804 - April 2018
+* System UTC = Sep 24 2019 20:26:27
+*END*
