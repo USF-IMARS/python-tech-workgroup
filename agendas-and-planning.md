@@ -1,9 +1,11 @@
-## week 01 - 2021-09-17
+## week 01 - 2021-09-17 - setup basics
 
-### Due:
+### Learning Objectives Completed
 * get set up with github
-* view the milestone for the week
-* complete tasks in the issues tagged `homework` (:book:) that are due on the 1st week milestone
+* overview of github issues, milestones
+* overview of jupyter, binder, mybinder.org
+* how to create `.ipynb` in github and load using mybinder.org
+* the PEP8 python style guide
 
 ### Agenda:
 * [X] review homework :book: issues/questions
@@ -13,24 +15,13 @@
 * [X] establish a lead for each project
 
 ### TODO items:
-* [ ] invite additional members
 * [ ] create github issues "labels" for each project
-* [ ] :book: complete your assigned github issues & close them
-* [ ] :book: project lead creates a notebook for each project
 * [ ] :book: project lead creates a github issue (or multiple) documenting first steps for their project 
 
 
-Project Leads
- * Dan       : processing MATLAB -> Python
- * Sebastian : WS cruise align backscatter & depth data 
- * Luis      : Dan's processing but starting from existing GEE products
- * Digna     : -
- * -         : land-cover ground truth data analysis
-
-
-
-## week 02 - ...
-### Agenda:
-* [ ] project updates
-* [ ] ...
-* [ ] discuss project next steps
+## week 02 - 2021-09-24 
+### learning objectives completed:
+* installing dependencies with `requirments.txt` & `environment.yml`
+* basics of connecting data to mybinder.org containers
+* quick demo of for loops, lists, and map().
+* first glimpses of `parse`, `pandas`, `datetime`, `os` packages
