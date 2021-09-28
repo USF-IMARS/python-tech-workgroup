@@ -6,24 +6,9 @@ Use the badge below to open this repository using mybinder.org & open `.ipynb` p
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/USF-IMARS/python-tech-workgroup/HEAD)
 
 
+--------------------------------------------
 
+### additional resources
+Below is a list of related links that may be helpful.
 
-
-
-
-
-
-----------------------------------------
-
-* streamline the seascape products
-* serve seascape products for other MBON nodes
-* work with Joaquin on this
-* move into Python and perhaps just extract directly from ERDDAP
-* Joaquin can generate the most of the sat products and serve via ERDDAP. Then we just extract and push to grafana.
-* other tasks via python, like
-    * fetching river or buoy data or 
-    * doing the L2 processing. 
-    * We could maybe end up with a little notebook to 
-        * process a set of L2 files. 
-        * Creating weekly/monthly means, 
-        * mapping data
+* [intro to earth & enviro science in python](https://earth-env-data-science.github.io//intro.html) : gives good overview of basic tech like git, jupyter, unix, pandas, xarray, dask. Especially recommended is the "Geoscience package" section on mapping.
