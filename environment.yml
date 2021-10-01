@@ -7,3 +7,4 @@ dependencies:
   - pip
   - earthengine-api
   - py6s
+  - urllib2
