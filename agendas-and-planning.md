@@ -34,3 +34,19 @@
 
 ### learning objectives:
 * how to use github issues
+
+
+-----------------------------------------------------------------------------------
+
+### Additional Topics to Cover:
+* [ ] interpolation (spatial maps & time series)
+* [ ] generating means, mosaics, climatologies
+* [ ] file i/o for several file types
+* [ ] fetching river or buoy data 
+* [ ] ***downloading sat data***
+* [ ] working with 3d matricies (numpy)
+* [ ] plotting & visualizations (matplotlib)
+* [ ] filename/string parsing
+* [x] packaging/dependecy management pip, pyenv, conda (esp. GDAL installation/setup)
+* [x] basic best practices
+
