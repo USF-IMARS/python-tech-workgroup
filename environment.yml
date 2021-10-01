@@ -6,3 +6,4 @@ dependencies:
   - numpy
   - pip
   - earthengine-api
+  - py6s
