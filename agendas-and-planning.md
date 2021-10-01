@@ -31,10 +31,30 @@
 * [ ] project updates
 * [ ] :book: project lead creates a github issue (or multiple) documenting first steps for their project 
 
+### project updates:
+#### GEE
+* new notebook added `L2_processing_GEE_in_colab.ipynb` for working w/ google colab
+    * need to install anaconda for py6s
+* other notebook needs minor porting from py2 to py3
+* permissions issues when trying to use GEE (see #15)
 
-### learning objectives:
-* how to use github issues
+#### MODIS processing
+* files uploaded to github `/data/MODA_OC_py_data/`
+* need to do filename parsing to get metadata from filename
 
+#### Cruise data
+* nothing new yet
+
+### learning objectives completed:
+* using lists, dicts, duck-typing, `str`
+* datetime.strptime
+* parse package to parse filenames
+
+## week 04 - 2021-10-08 - ...
+* ?
+
+## week 05 - 2021-10-15 - 
+* spatio-temporal interpolations - see #18
 
 -----------------------------------------------------------------------------------
 
@@ -46,7 +66,8 @@
 * [ ] ***downloading sat data***
 * [ ] working with 3d matricies (numpy)
 * [ ] plotting & visualizations (matplotlib)
-* [ ] filename/string parsing
+* [x] filename/string parsing
 * [x] packaging/dependecy management pip, pyenv, conda (esp. GDAL installation/setup)
 * [x] basic best practices
+* [ ] subprocess.run
 
