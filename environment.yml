@@ -8,4 +8,3 @@ dependencies:
   - earthengine-api
   - py6s
   - scipy
-  - urllib
