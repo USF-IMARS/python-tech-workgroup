@@ -1,0 +1,219 @@
+<graph id="mosaic_1km_WFS_OC">
+<version>1.0</version>
+<node id="mosaicNode">
+<operator>Mosaic</operator>
+<sources>
+<sourceProducts>${sourceProducts}</sourceProducts>
+</sources>
+<parameters>
+<variables>
+<variable>
+<name>Rrs_412</name>
+<expression>Rrs_412</expression>
+</variable>
+<variable>
+<name>Rrs_443</name>
+<expression>Rrs_443</expression>
+</variable>
+<variable>
+<name>Rrs_488</name>
+<expression>Rrs_488</expression>
+</variable>
+<variable>
+<name>Rrs_531</name>
+<expression>Rrs_531</expression>
+</variable>
+<variable>
+<name>Rrs_547</name>
+<expression>Rrs_547</expression>
+</variable>
+<variable>
+<name>Rrs_667</name>
+<expression>Rrs_667</expression>
+</variable>
+<variable>
+<name>Rrs_678</name>
+<expression>Rrs_678</expression>
+</variable>
+<variable>
+<name>chlor_a</name>
+<expression>chlor_a</expression>
+</variable>
+<variable>
+<name>nflh</name>
+<expression>nflh</expression>
+</variable>
+<variable>
+<name>l2_flags</name>
+<expression>l2_flags</expression>
+</variable>
+<variable>
+<name>STRAYLIGHT_MASK</name>
+<expression>l2_flags.STRAYLIGHT ? 1 : 0</expression>
+</variable>
+</variables>
+<conditions>
+<condition>
+<name>not_LAND</name>
+<expression>NOT l2_flags.LAND</expression>
+<output>false</output>
+</condition>
+<condition>
+<name>not_CLDICE</name>
+<expression>NOT l2_flags.CLDICE</expression>
+<output>false</output>
+</condition>
+<condition>
+<name>not_HIGLINT</name>
+<expression>NOT l2_flags.HIGLINT</expression>
+<output>false</output>
+</condition>
+</conditions>
+<combine>AND</combine>
+<crs>
+PROJCS["Equidistant_Cylindrical / World Geodetic System 1984", 
+GEOGCS["World Geodetic System 1984", 
+DATUM["World Geodetic System 1984", 
+SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+AUTHORITY["EPSG","6326"]], 
+PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+UNIT["degree", 0.017453292519943295], 
+AXIS["Geodetic longitude", EAST], 
+AXIS["Geodetic latitude", NORTH]], 
+PROJECTION["Equidistant_Cylindrical"], 
+PARAMETER["central_meridian", 0.0], 
+PARAMETER["latitude_of_origin", 0.0], 
+PARAMETER["standard_parallel_1", 0.0], 
+PARAMETER["false_easting", 0.0], 
+PARAMETER["false_northing", 0.0], 
+UNIT["m", 1.0], 
+AXIS["Easting", EAST],
+AXIS["Northing", NORTH]] 
+</crs>
+<orthorectify>false</orthorectify>
+<elevationModelName>GETASSE30</elevationModelName>
+<resampling>Nearest</resampling>
+<westBound>-86.0</westBound>
+<northBound>31.0</northBound>
+<eastBound>-79.0</eastBound>
+<southBound>23.0</southBound>
+<pixelSizeX>1011.7</pixelSizeX>
+<pixelSizeY>1011.7</pixelSizeY>
+</parameters>
+</node>
+<node id="selectBandsNode">
+    <operator>BandMaths</operator>
+    	<sources>
+           <sourceProducts>mosaicNode</sourceProducts>
+        </sources>
+       <parameters>
+           <targetBands>
+                <targetBand>
+                   <name>Rrs_412</name>
+                   <expression>Rrs_412</expression>
+                   <description>Remote sensing reflectance at 412 nm</description>
+                   <type>float32</type>
+                   <validExpression>(Rrs_412 > -0.01 and Rrs_412 &lt; 0.1 and Rrs_412 !=0)</validExpression>
+                   <noDataValue>NaN</noDataValue>
+                   <spectralWavelength>412.0</spectralWavelength>
+                   <unit>sr^-1</unit> 
+                </targetBand>
+                <targetBand>
+                   <name>Rrs_443</name>
+                   <expression>Rrs_443</expression>
+                   <description>Remote sensing reflectance at 443 nm</description>
+                   <type>float32</type>
+                   <validExpression>(Rrs_443 > -0.01 and Rrs_443 &lt; 0.1 and Rrs_443 !=0)</validExpression>
+                   <noDataValue>NaN</noDataValue>
+                   <spectralWavelength>443.0</spectralWavelength>
+                   <unit>sr^-1</unit> 
+                </targetBand>
+                <targetBand>
+                   <name>Rrs_488</name>
+                   <expression>Rrs_488</expression>
+                   <description>Remote sensing reflectance at 488 nm</description>
+                   <type>float32</type>
+                   <validExpression>(Rrs_488 > -0.01 and Rrs_488 &lt; 0.1 and Rrs_488 !=0)</validExpression>
+                   <noDataValue>NaN</noDataValue>
+                   <spectralWavelength>488.0</spectralWavelength>
+                   <unit>sr^-1</unit> 
+                </targetBand>
+                <targetBand>
+                   <name>Rrs_531</name>
+                   <expression>Rrs_531</expression>
+                   <description>Remote sensing reflectance at 531 nm</description>
+                   <type>float32</type>
+                   <validExpression>(Rrs_531 > -0.01 and Rrs_531 &lt; 0.1 and Rrs_531 !=0)</validExpression>
+                   <noDataValue>NaN</noDataValue>
+                   <spectralWavelength>531.0</spectralWavelength>
+                   <unit>sr^-1</unit> 
+                </targetBand>
+                <targetBand>
+                   <name>Rrs_547</name>
+                   <expression>Rrs_547</expression>
+                   <description>Remote sensing reflectance at 547 nm</description>
+                   <type>float32</type>
+                   <validExpression>(Rrs_547 > -0.01 and Rrs_547 &lt; 0.1 and Rrs_547 !=0)</validExpression>
+                   <noDataValue>NaN</noDataValue>
+                   <spectralWavelength>547.0</spectralWavelength>
+                   <unit>sr^-1</unit> 
+                </targetBand>
+                <targetBand>
+                   <name>Rrs_667</name>
+                   <expression>Rrs_667</expression>
+                   <description>Remote sensing reflectance at 667 nm</description>
+                   <type>float32</type>
+                   <validExpression>(Rrs_667 > -0.01 and Rrs_667 &lt; 0.1 and Rrs_667 !=0)</validExpression>
+                   <noDataValue>NaN</noDataValue>
+                   <spectralWavelength>667.0</spectralWavelength>
+                   <unit>sr^-1</unit> 
+                </targetBand>
+                <targetBand>
+                   <name>Rrs_678</name>
+                   <expression>Rrs_678</expression>
+                   <description>Remote sensing reflectance at 678 nm</description>
+                   <type>float32</type>
+                   <validExpression>(Rrs_678 > -0.01 and Rrs_678 &lt; 0.1 and Rrs_678 !=0)</validExpression>
+                   <noDataValue>NaN</noDataValue>
+                   <spectralWavelength>678.0</spectralWavelength>
+                   <unit>sr^-1</unit> 
+                </targetBand>
+                <targetBand>
+                   <name>nflh</name>
+                   <expression>nflh</expression>
+                   <description>Normalized Fluorescent Line Height</description>
+                   <type>float32</type>
+                   <validExpression>(nflh > -0.5 and nflh &lt; 100)</validExpression>
+                   <noDataValue>NaN</noDataValue>
+                   <unit>W m^-2 um^-1 sr^-1</unit>
+                </targetBand>
+                <targetBand>
+                   <name>chlor_a</name>
+                   <expression>chlor_a</expression>
+                   <description>Chlorophyll-a concentration, OCI Algorithm</description>
+                   <type>float32</type>
+                   <validExpression>(chlor_a > 0.001 and chlor_a &lt; 100)</validExpression>
+                   <noDataValue>NaN</noDataValue>
+                   <unit>mg m^-3</unit>                  
+                </targetBand> 
+                <targetBand>
+                   <name>STRAYLIGHT_MASK</name>
+                   <expression>STRAYLIGHT_MASK</expression>
+                   <description>Straylight affected pixels</description>
+                   <type>float32</type>             
+                </targetBand>
+                <targetBand>
+                   <name>ABI</name>
+                   <expression>nflh/(1+(Rrs_547-0.0015)*80)</expression>
+                   <description>Algal Bloom Index (Hu and Feng 2016)</description>
+                   <type>float32</type> 
+                   <validExpression>(ABI > -0.5 and ABI &lt; 100)</validExpression>
+                   <noDataValue>NaN</noDataValue>
+                   <unit>W m^-2 um^-1 sr^-1</unit>            
+                </targetBand>
+           </targetBands>
+       </parameters>
+   </node>
+</graph>
+
+
