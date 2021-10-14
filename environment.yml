@@ -4,7 +4,10 @@ channels:
 dependencies:
   - python
   - numpy
-  - pip
   - earthengine-api
   - py6s
   - scipy
+  - pip
+  - pip:
+    - pandas==1.3.3
+    - parse==1.19.0
