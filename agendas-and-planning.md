@@ -70,4 +70,8 @@
 * [x] packaging/dependecy management pip, pyenv, conda (esp. GDAL installation/setup)
 * [x] basic best practices
 * [ ] subprocess.run
+* [ ] how (and why) to put functions into a .py file and import it to the ipynb
+    * [ ] better VCS on .py files (commit diffs make sense instead of big json file replacement)
+    * [ ] you don't need to use a jupyter notebook editor, any text editor works. 
+    * [ ] you can build tests for your functions (test-driven development is a wonderful practice)
 
