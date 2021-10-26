@@ -50,11 +50,18 @@
 * datetime.strptime
 * parse package to parse filenames
 
-## week 04 - 2021-10-08 - ...
-* ?
+## week 04 - 2021-10-08 - debugging proj specifics
+## week 05 - 2021-10-15 - loading data into pandas
+## week 06 - 2021-10-22 - playing w/ time series decomposition
+## week 07 - 2021-10-29 - exploratory dataviz: histograms, outliers, etc
+* histogram of BB3 data
+* statistical outlier detection & removal
+* histogram of spatial data classes/values?
 
-## week 05 - 2021-10-15 - 
+## week ??
 * spatio-temporal interpolations - see #18
+* on BB3 data?
+* on sea level rise prediction data for 3D wetlands? 
 
 -----------------------------------------------------------------------------------
 
