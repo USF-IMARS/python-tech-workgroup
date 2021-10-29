@@ -53,8 +53,11 @@
 ## week 04 - 2021-10-08 - debugging proj specifics
 ## week 05 - 2021-10-15 - loading data into pandas
 ## week 06 - 2021-10-22 - playing w/ time series decomposition
-## week 07 - 2021-10-29 - cleanups, new repos, functions
+## week 07 - 2021-10-29 - new repos
 * everybody create your own (binder-powered) repo!
+* GEE examples for using maxent looks very promising [eg](https://code.earthengine.google.com/b1a0cc8c8ff49eadae115caadbbab3b8)
+* 
+## week 08 - 2021-11-04 - cleanups, functions, pickles
 * we can create shared data by publishing "atomic" `.csv`, `.nc`, or `.pickle` files
     * atomic transforms : do one data transformation at a time, save files between each transform
 * using the `pickle` package (& why)
