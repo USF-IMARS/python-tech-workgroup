@@ -6,7 +6,6 @@ Use the badge below to open this repository using mybinder.org & open `.ipynb` p
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/USF-IMARS/python-tech-workgroup/HEAD)
 
 ## projects spawned from here:
-## project summaries:
 * [L2 processing](https://github.com/USF-IMARS/l2-processing) : Dan       : processing MATLAB -> Python
     * streamline seascape products, working w/ Joaquin, grabbing extant from ERDDAP
     * doing the L2 processing, create means, do mapping
