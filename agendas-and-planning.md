@@ -53,7 +53,27 @@
 ## week 04 - 2021-10-08 - debugging proj specifics
 ## week 05 - 2021-10-15 - loading data into pandas
 ## week 06 - 2021-10-22 - playing w/ time series decomposition
-## week 07 - 2021-10-29 - exploratory dataviz: histograms, outliers, etc
+## week 07 - 2021-10-29 - cleanups, new repos, functions
+* everybody create your own (binder-powered) repo!
+* we can create shared data by publishing "atomic" `.csv`, `.nc`, or `.pickle` files
+    * atomic transforms : do one data transformation at a time, save files between each transform
+* using the `pickle` package (& why)
+    * pickle any object
+    * unpickle the file later
+* creating functions & "modules"
+    * why?
+        * don't need to use a jupyter notebook editor, any text editor works. 
+        * can build tests for your functions (test-driven development is a wonderful practice)
+        * **better VCS on .py files** (commit diffs make sense instead of big json file replacement)
+        * shorten your notebook & don't repeat yourself (DRY)
+        * **can use common functions between multiple notebooks/files (& projects by creating a package)**
+    * how to put functions into a .py file and import it to the ipynb
+        * walkthrough [obis_notebooks example](https://github.com/USF-IMARS/obis_notebooks/blob/master/dwc_download_and_analyze.ipynb)
+            1. create & test using a function in the notebook
+            2. move fn def to a `.py` file
+            3. `import my_function from my_module`
+
+## week ?? - ????-??-?? - exploratory dataviz: histograms, outliers, etc
 * histogram of BB3 data
 * statistical outlier detection & removal
 * histogram of spatial data classes/values?
@@ -68,17 +88,16 @@
 ### Additional Topics to Cover:
 * [ ] interpolation (spatial maps & time series)
 * [ ] generating means, mosaics, climatologies
-* [ ] file i/o for several file types
+* [ ] file i/o for several file types (`csv`, `nc`, `pickle`
 * [ ] fetching river or buoy data 
 * [ ] ***downloading sat data***
 * [ ] working with 3d matricies (numpy)
-* [ ] plotting & visualizations (matplotlib)
+* [ ] plotting & visualizations (matplotlib, plotly, seaborn, etc)
 * [x] filename/string parsing
 * [x] packaging/dependecy management pip, pyenv, conda (esp. GDAL installation/setup)
 * [x] basic best practices
 * [ ] subprocess.run
-* [ ] how (and why) to put functions into a .py file and import it to the ipynb
-    * [ ] better VCS on .py files (commit diffs make sense instead of big json file replacement)
-    * [ ] you don't need to use a jupyter notebook editor, any text editor works. 
-    * [ ] you can build tests for your functions (test-driven development is a wonderful practice)
+* [ ] some data processing pipeline theory
+    * ETL (extract, transform, load) : process (transform) one data object (file) into another
+    * data provenance : the history of everything that happens between data creation & final result
 
