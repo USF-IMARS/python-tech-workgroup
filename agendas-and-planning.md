@@ -58,8 +58,9 @@
 * we can create shared data by publishing "atomic" `.csv`, `.nc`, or `.pickle` files
     * atomic transforms : do one data transformation at a time, save files between each transform
 * using the `pickle` package (& why)
-    * pickle any object
-    * unpickle the file later
+    * pickle any object. see notebooks/instructional/02...
+    * unpickle the file later. see notebooks/instructional/04...
+    * files get big fast. TODO: try using bz2 compression [ref](https://betterprogramming.pub/load-fast-load-big-with-compressed-pickles-5f311584507e)
 * creating functions & "modules"
     * why?
         * don't need to use a jupyter notebook editor, any text editor works. 
