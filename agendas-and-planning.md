@@ -33,6 +33,10 @@
     * to see outliers & (assumed bi-modality) in BB3 data
     * 3d wetlands histograms of spatial data classes/values? (based on Luis's existing works)
 * [ ] statistical outlier detection & removal
+* [ ] PCA visualization / dimensionality reduction / unsupervised clustering
+    * [ ] RDA? 
+    * [ ] [biodiversityR](https://github.com/cran/BiodiversityR) / vegan package
+* [ ] interactive components (silders, selectors, etc) in jupyter notebooks
 
 -----------------------------------------------------------------------------------
 
