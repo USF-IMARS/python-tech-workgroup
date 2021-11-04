@@ -10,7 +10,7 @@ Use the badge below to open this repository using mybinder.org & open `.ipynb` p
     * streamline seascape products, working w/ Joaquin, grabbing extant from ERDDAP
     * doing the L2 processing, create means, do mapping
 * [BB3 matchup](https://github.com/USF-IMARS/bb3_matchup) : Sebastian : WS cruise align backscatter & depth data
-* [gee_notebooks](https://github.com/USF-IMARS/gee_notebooks/tree/main) : Luis      : Dan's processing but starting from existing GEE products
+* [gee_notebooks](https://github.com/USF-IMARS/gee_notebooks/tree/main) : Luis : analyses using GEE products, 3d wetlands data, & seagrass occurrences
 
 
 --------------------------------------------
