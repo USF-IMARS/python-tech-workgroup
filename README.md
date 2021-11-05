@@ -15,6 +15,16 @@ Use the badge below to open this repository using mybinder.org & open `.ipynb` p
 
 --------------------------------------------
 
+### steps for installing dependencies in your repos:
+Use the various [binder configuration files](https://mybinder.readthedocs.io/en/latest/using/config_files.html) in the following order:
+1. try to install your python dependency using `environment.yml` 
+    * NOTE: similarly, you should use `DESCRIPTION` for `R` and `Project.toml` for Julia 
+3. try to install your dependency using `apt.txt` to install ubuntu "`apt-get`" packages
+4. run arbitrary bash commands using a `postBuild` file
+5. create your own `Dockerfile` to replace all of the above
+
+--------------------------------------------
+
 ### additional resources
 Below is a list of related links that may be helpful.
 
