@@ -27,16 +27,7 @@
 * [ ] interactive components (silders, selectors, etc) in jupyter notebooks
 * [ ] CLI building using argparse
 
------------------------------------------------------------------------------------
 
-# weekly agendas/plans
-## week 08 - 2021-11-05 - cleanups, functions, pickles
-* we can create shared data by publishing "atomic" `.csv`, `.nc`, or `.pickle` files
-    * atomic transforms : do one data transformation at a time, save files between each transform
-* using the `pickle` package (& why)
-    * pickle any object. see notebooks/instructional/02...
-    * unpickle the file later. see notebooks/instructional/04...
-    * files get big fast. TODO: try using bz2 compression [ref](https://betterprogramming.pub/load-fast-load-big-with-compressed-pickles-5f311584507e)
 * [ ] creating functions & "modules"
     * why?
         * don't need to use a jupyter notebook editor, any text editor works. 
@@ -49,7 +40,27 @@
             1. create & test using a function in the notebook
             2. move fn def to a `.py` file
             3. `import my_function from my_module`
-* create an "atomic" data pipeline with one "main" notebook which calls functions, passing filenames as in/out
+* [ ] create an "atomic" data pipeline with one "main" notebook which calls functions, passing filenames as in/out
+
+-----------------------------------------------------------------------------------
+
+# weekly agendas/plans
+
+## week 09
+* L2 SEADAS install is working?
+* GEE pub topic ready?
+* BB3 next steps?
+
+## week 08 - 2021-11-05 - cleanups, functions, pickles
+* L2 processing needs GPT installed via apt.txt and environment.yml
+* GEE needs targeted research question(s) or publication goal to drive further development 
+
+* we can create shared data by publishing "atomic" `.csv`, `.nc`, or `.pickle` files
+    * atomic transforms : do one data transformation at a time, save files between each transform
+* using the `pickle` package (& why)
+    * pickle any object. see notebooks/instructional/02...
+    * unpickle the file later. see notebooks/instructional/04...
+    * files get big fast. TODO: try using bz2 compression [ref](https://betterprogramming.pub/load-fast-load-big-with-compressed-pickles-5f311584507e)
 
 ## week 07 - 2021-10-29 - new repos
 * everybody create your own (binder-powered) repo!
