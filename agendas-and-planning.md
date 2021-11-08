@@ -46,10 +46,14 @@
 
 # weekly agendas/plans
 
-## week 09
+## week 09 | 2021-11-12 | functions, modules, & pipelines?
+### project updates
 * L2 SEADAS install is working?
 * GEE pub topic ready?
 * BB3 next steps?
+* 
+### demonstrations
+* load pickle files from URLs (see updated `04_reading_pickle_files.ipynb`)
 
 ## week 08 - 2021-11-05 - cleanups, functions, pickles
 * L2 processing needs GPT installed via apt.txt and environment.yml
