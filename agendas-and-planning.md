@@ -1,4 +1,5 @@
 # Topic ideas:
+* [ ] **python packaging directory structure**
 * [ ] interpolation 
 * [ ] generating means, mosaics, climatologies
 * [ ] file i/o for several file types (`csv`, `nc`, `pickle`
