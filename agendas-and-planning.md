@@ -2,7 +2,7 @@
 * [ ] **python packaging directory structure**
 * [ ] interpolation 
 * [ ] generating means, mosaics, climatologies
-* [ ] file i/o for several file types (`csv`, `nc`, `pickle`
+* [x] file i/o for several file types (`csv`, `nc`, `pickle`
 * [ ] fetching river or buoy data 
 * [ ] ***downloading sat data***
 * [ ] working with 3d matricies (numpy)
@@ -45,14 +45,27 @@
 
 -----------------------------------------------------------------------------------
 
+# possible topics next semester
+* Luis co-lab demo
+* review functions, modules, importing, opening files (csv, pickle)
+* plotting/viz 
+
+-----------------------------------------------------------------------------------
+
 # weekly agendas/plans
+
+## week 10 | 2021-12-03 | planning
+For next semester: 
+* project updates briefly at start then daily topic.
+* walkthroughs using the notebooks
+* 
 
 ## week 09 | 2021-11-12 | functions, modules, & pipelines?
 ### project updates
 * L2 SEADAS install is working?
 * GEE pub topic ready?
 * BB3 next steps?
-* 
+
 ### demonstrations
 * load pickle files from URLs (see updated `04_reading_pickle_files.ipynb`)
 
@@ -97,7 +110,6 @@
 * using lists, dicts, duck-typing, `str`
 * datetime.strptime
 * parse package to parse filenames
-
 
 ## week 02 - 2021-09-24 - projects setup
 ### learning objectives completed:
