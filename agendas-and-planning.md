@@ -28,7 +28,6 @@
 * [ ] interactive components (silders, selectors, etc) in jupyter notebooks
 * [ ] CLI building using argparse
 
-
 * [ ] creating functions & "modules"
     * why?
         * don't need to use a jupyter notebook editor, any text editor works. 
@@ -54,11 +53,18 @@
 
 # weekly agendas/plans
 
+## week 11 | 2021-12-10 | basic gridded data viz
+* project updates
+    * GPT installation?
+    * l2 processing w/o GPT?
+    * Co-Lab questions?
+    * BB3 update
+ * basic data viz of MODIS/VIIRS (+ GEE) imagery
+
 ## week 10 | 2021-12-03 | planning
 For next semester: 
 * project updates briefly at start then daily topic.
 * walkthroughs using the notebooks
-* 
 
 ## week 09 | 2021-11-12 | functions, modules, & pipelines?
 ### project updates
