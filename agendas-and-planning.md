@@ -44,10 +44,10 @@
 
 -----------------------------------------------------------------------------------
 
-# possible topics next semester
+# possible topics 2022 Spring
 * Luis co-lab demo
 * review functions, modules, importing, opening files (csv, pickle)
-* plotting/viz 
+* plotting & viz 
 
 -----------------------------------------------------------------------------------
 
@@ -58,8 +58,9 @@
     * GPT installation?
     * l2 processing w/o GPT?
     * Co-Lab questions?
-    * BB3 update
- * basic data viz of MODIS/VIIRS (+ GEE) imagery
+    * BB3 status update
+ * basic data viz of MODIS/VIIRS (+ GEE?) imagery
+ * TODO: identify data viz "user stories"/goals for imagery
 
 ## week 10 | 2021-12-03 | planning
 For next semester: 
