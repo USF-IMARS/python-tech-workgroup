@@ -48,19 +48,22 @@
 * Luis co-lab demo
 * review functions, modules, importing, opening files (csv, pickle)
 * plotting & viz 
+    * [sat data](https://gist.github.com/7yl4r/481912f04f0d7f9a848a4914ada4ed1b)
 
 -----------------------------------------------------------------------------------
 
 # weekly agendas/plans
 
-## week 11 | 2021-12-10 | basic gridded data viz
+## week 12 | 2021-12-17 
 * project updates
-    * GPT installation?
-    * l2 processing w/o GPT?
-    * Co-Lab questions?
-    * BB3 status update
- * basic data viz of MODIS/VIIRS (+ GEE?) imagery
- * TODO: identify data viz "user stories"/goals for imagery
+    * 
+* l2_mosaic : chlor display histogram? Set value bounds to rm huge values distoring the colorbar.
+* TODO: identify data viz "user stories"/goals for imagery
+
+## week 11 | 2021-12-10 | basic .nc geo raster display
+* project updates
+    * l2_mosaic: GPT installation NYI. going to use OCSSW directly instead.
+ * basic data viz of MODIS image using matplotlib.basemap
 
 ## week 10 | 2021-12-03 | planning
 For next semester: 
