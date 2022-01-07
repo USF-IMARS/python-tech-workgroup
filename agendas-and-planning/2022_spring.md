@@ -1,3 +1,27 @@
+# Agendas/Minutes
+
+## 2022-01-07
+* project updates
+    * 
+* identify data viz "user stories"/goals for imagery
+    * visualize outliers
+    *  
+* prep for starting semester:
+    * wanting to include new members; they will need projects
+    * will focus meeting on generic topics better for new members
+    * will push project-specific topics to github issues
+        * please try to use github issues to document requests. this will help me plan the meetings.
+
+-----------------------------------------------------------------------------------
+
+# possible topics 2022 Spring
+* Luis co-lab demo
+* review functions, modules, importing, opening files (csv, pickle)
+* plotting & viz basics
+    * [sat data](https://gist.github.com/7yl4r/481912f04f0d7f9a848a4914ada4ed1b)
+
+-----------------------------------------------------------------------------------
+
 # Topic ideas:
 * [ ] **python packaging directory structure**
 * [ ] generating means, mosaics, climatologies
@@ -35,19 +59,3 @@
             3. `import my_function from my_module`
 * [ ] create an "atomic" data pipeline with one "main" notebook which calls functions, passing filenames as in/out
 
------------------------------------------------------------------------------------
-
-# possible topics 2022 Spring
-* Luis co-lab demo
-* review functions, modules, importing, opening files (csv, pickle)
-* plotting & viz basics
-    * [sat data](https://gist.github.com/7yl4r/481912f04f0d7f9a848a4914ada4ed1b)
-
------------------------------------------------------------------------------------
-
-# Agendas/Minutes
-
-## 2022-01-07
-* project updates
-    * 
-* TODO: identify data viz "user stories"/goals for imagery
