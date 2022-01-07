@@ -1,11 +1,31 @@
 # Agendas/Minutes
 
+## 2022-01-21 | Intro to python
+* 
+
+## 2022-01-14 | 
+* project updates
+* should we reschedule?
+* new members project discussion
+    * Carolina: GEE+colab machine learning. Take over Luis's project? Will return on the 21st.
+* 
+
 ## 2022-01-07
 * project updates
-    * 
-* identify data viz "user stories"/goals for imagery
-    * visualize outliers
-    *  
+    * L2 proc: 
+         * GPT is too hard to install. OCSSW run bothered by [issue 1](https://github.com/USF-IMARS/l2-processing/issues/1).
+         * Going to move this project out of jupyter notebooks. Dan choosing an IDE.
+         * requested topics : functions, python files, CLI code, saving variables into pickle file.
+    * GEE: 
+         * requested topics : co-lab demo/intro, functions, python files
+    * BB3: 
+        * requested topics: data viz. "user stories"/goals for imagery:
+            * time series analysis
+            * depth profile plot
+            * map w/ a cruise track
+* possible additional members?
+    * Nancy Williams's students
+    * Niel Hammerschalg's Students
 * prep for starting semester:
     * wanting to include new members; they will need projects
     * will focus meeting on generic topics better for new members
@@ -15,8 +35,6 @@
 -----------------------------------------------------------------------------------
 
 # possible topics 2022 Spring
-* Luis co-lab demo
-* review functions, modules, importing, opening files (csv, pickle)
 * plotting & viz basics
     * [sat data](https://gist.github.com/7yl4r/481912f04f0d7f9a848a4914ada4ed1b)
 
