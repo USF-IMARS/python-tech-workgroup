@@ -22,7 +22,7 @@
     * Using github "issues" [here](https://github.com/USF-IMARS/python-tech-workgroup/issues)
 * new members project discussions
     * Carolina: GEE+colab machine learning. Take over Luis's project? Will return on the 21st.
-* homework: create an issue, tag it "new member introduction", introduce your research interests
+* homework: create an issue, tag it "discussion", and introduce your research interests
 
 ## 2022-01-07
 * project updates
