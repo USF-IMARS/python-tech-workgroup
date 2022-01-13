@@ -1,10 +1,17 @@
 # Agendas/Minutes
 
+## 2022-02-04 | GEE + Google Collab
+[Luis](https://github.com/luislizcano) will lead an overview of using google collab (a jupyterhub hosting alternative to mybinder.org) and how to use google earth engine within collab.
+* project updates
+    * ...
+* Special guest : [Eduardo Klein](https://github.com/diodon)
+
 ## 2022-01-21 | Intro to python
 * 
 
 ## 2022-01-14 | 
 * project updates
+    * ...
 * should we reschedule?
 * new members project discussion
     * Carolina: GEE+colab machine learning. Take over Luis's project? Will return on the 21st.
