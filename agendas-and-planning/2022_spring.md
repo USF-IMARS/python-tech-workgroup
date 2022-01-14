@@ -1,5 +1,8 @@
 # Agendas/Minutes
 
+## 2022-0?-?? | Ben's extractR
+* TODO: bother @bbest
+
 ## 2022-02-04 | GEE + Google Collab
 [Luis](https://github.com/luislizcano) will lead an overview of using google collab (a jupyterhub hosting alternative to mybinder.org) and how to use google earth engine within collab.
 * project updates
@@ -7,30 +10,31 @@
 * Special guest : [Eduardo Klein](https://github.com/diodon)
 
 ## 2022-01-21 | Intro to python
-* 
+* loading a data file
 
-## 2022-01-14 | 
+## 2022-01-14 | Intro to the group
 * project updates
-    * ...
+    * None
 * points of order
     * introductions
         * ensure everyone is:
             * on the teams event
             * in usf-imars org as member or collab 
-    * should we reschedule?
+    * should we reschedule? no
 * intro to this workgroup 
     * if you don't have a github account, make one now.
     * Look at the [README](https://github.com/USF-IMARS/python-tech-workgroup#readme)
     * Open the project repo using "launch" mybinder.org button
     * Using github "issues" [here](https://github.com/USF-IMARS/python-tech-workgroup/issues)
 * new members project discussions
-    * Carolina: GEE+colab machine learning. Take over Luis's project? Will return on the 21st.
+    * GEE+colab machine learning. Take over Luis's project? Will return on the 21st.
+    * Interpolation w/ API-pulled Argo/Saildrone data
+    * FL Keys coral health over time
 * homework: 
     1. create an issue
     2. tag it "discussion"
-    3. introduce yourself & your research interests
+    3. propose a project idea
     4. review & comment on other people's discussion "issues"
-    5. once you have determined a project to work on: put a link to the project repo and close the issue.
 
 ## 2022-01-07
 * project updates
