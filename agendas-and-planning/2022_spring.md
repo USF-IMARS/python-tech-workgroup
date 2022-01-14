@@ -12,8 +12,11 @@
 ## 2022-01-14 | 
 * project updates
     * ...
-* general points of order
+* points of order
     * introductions
+        * ensure everyone is:
+            * on the teams event
+            * in usf-imars org as member or collab 
     * should we reschedule?
 * intro to this workgroup 
     * if you don't have a github account, make one now.
