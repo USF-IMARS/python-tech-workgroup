@@ -26,6 +26,17 @@ project title                                                | members   | descr
 
 ----------------------------------------------------------------------
 
+## New Project Setup Steps:
+This is a guide for creating your own new project repository:
+1. create a new github repository via the github GUI
+2. (optional) create a README.md, LICENCE, .gitignore, etc
+3. create an `environment.yml` file to specify dependencies (see below for more details)
+4. (optional) create other jupyter config files (see below for details)
+5. go to [mybinder.org](https://mybinder.org/), enter your new github repo's URL
+6. open your repository's README.md file in anther tab
+7. Copy the "binder badge" markdown "code" into your README.md. This markdown-formatted-link will create a button for you to use in the future. Commit the change to your readme file. 
+8. You can now "launch" into the jupyter interface using the button in your README displayed on your repo's root page.
+
 ### steps for installing dependencies in your repos:
 Use the various [binder configuration files](https://mybinder.readthedocs.io/en/latest/using/config_files.html) in the following order:
 1. try to install your python dependency using `environment.yml` 
