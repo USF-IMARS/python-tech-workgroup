@@ -3,6 +3,10 @@
 ## 2022-0?-?? | Ben's extractR
 * TODO: bother @bbest
 
+## 2022-02-11 | python modules & directory structure
+Overview of L2 notebooks retooled to become a module.
+
+
 ## 2022-02-04 | GEE + Google Collab
 [Luis](https://github.com/luislizcano) will lead an overview of using google collab (a jupyterhub hosting alternative to mybinder.org) and how to use google earth engine within collab.
 * project updates
@@ -11,6 +15,14 @@
 
 ## 2022-01-21 | Intro to python
 * loading a data file
+* Project updates:
+    * Nicola : working on argo float data function
+    * Chelsea : going to load in CREMP location + % cover data for plotting
+    * Dan : awaiting module-ization 
+    * Juan : awaiting data details
+    * Claudia : water quality, SST, & CHL basics & plotting
+    * Carolina : seagrass fish community video data processing (ML?). Extract & analyze OBIS data.
+    * Mostafa : basics of python & python setup
 
 ## 2022-01-14 | Intro to the group
 * project updates
