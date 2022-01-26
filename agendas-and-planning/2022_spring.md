@@ -13,6 +13,9 @@ Overview of L2 notebooks retooled to become a module.
     * ...
 * Special guest : [Eduardo Klein](https://github.com/diodon)
 
+## 2022-01-28 | ???
+...
+
 ## 2022-01-21 | Intro to python
 * loading a data file
 * Project updates:
