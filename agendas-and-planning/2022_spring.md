@@ -10,11 +10,18 @@ Overview of L2 notebooks retooled to become a module.
 ## 2022-02-04 | GEE + Google Collab
 [Luis](https://github.com/luislizcano) will lead an overview of using google collab (a jupyterhub hosting alternative to mybinder.org) and how to use google earth engine within collab.
 * project updates
-    * ...
+    
 * Special guest : [Eduardo Klein](https://github.com/diodon)
 
-## 2022-01-28 | ???
-...
+
+## 2022-01-28 | mybinder.org Project Setup
+* project updates:
+    * [SOCCOM_eddy repo set up](https://github.com/Williams-OBGC-Lab/SOCCOM_eddy)
+    * GEE next steps need to be done in Colab - demo next week! 
+    * coral assessment - looking at more data & considering using GEE
+        * want to create comprehensive map of coral data in the FL keys
+        * starting from David Palandro(sp?)'s old data
+
 
 ## 2022-01-21 | Intro to python
 * loading a data file
