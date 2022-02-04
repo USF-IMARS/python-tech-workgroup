@@ -8,6 +8,9 @@ Focus on BB3 project interpolations?
 
 ## 2022-02-11 | python modules & directory structure???
 Overview of L2 notebooks retooled to become a module.
+* package managers overview
+* installing python on linux
+    * pyenv || venv
 * working w/ git submodules
 * directory structure
 * module setup
