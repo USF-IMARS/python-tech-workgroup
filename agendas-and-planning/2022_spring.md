@@ -3,16 +3,25 @@
 ## 2022-0?-?? | Ben's extractR
 * TODO: bother @bbest
 
-## 2022-02-11 | python modules & directory structure
-Overview of L2 notebooks retooled to become a module.
+## 2022-0?-?? | mapping & interpolations???
+Focus on BB3 project interpolations?
 
+## 2022-02-11 | python modules & directory structure???
+Overview of L2 notebooks retooled to become a module.
+* working w/ git submodules
+* directory structure
+* module setup
+* (unit) testing w/ pytest
 
 ## 2022-02-04 | GEE + Google Collab
 [Luis](https://github.com/luislizcano) will lead an overview of using google collab (a jupyterhub hosting alternative to mybinder.org) and how to use google earth engine within collab.
-* project updates
-    
-* Special guest : [Eduardo Klein](https://github.com/diodon)
-
+* overview of collab
+* overview of finding, importing ImageCollection data in GEE code editor
+* basic ImageCollection filtering
+* how to display multiband ImageCollection
+* how to do all the above in G Collab
+* how to do mean, extract a timeseries, and plot it
+* walkthrough example of creating SDM from GBIF data using SST, elevation, & precip.
 
 ## 2022-01-28 | mybinder.org Project Setup
 * project updates:
@@ -21,7 +30,6 @@ Overview of L2 notebooks retooled to become a module.
     * coral assessment - looking at more data & considering using GEE
         * want to create comprehensive map of coral data in the FL keys
         * starting from David Palandro(sp?)'s old data
-
 
 ## 2022-01-21 | Intro to python
 * loading a data file
