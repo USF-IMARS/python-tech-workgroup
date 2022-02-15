@@ -2,9 +2,12 @@
 Welcome to the IMaRS python technical working group!
 
 This repository is used to organize meetings & projects for anyone interested in learning how to leverage python coding in their research. 
-We focus specifically on IMaRS research topics but all are welcome to join. 
-If you would like to join the workgroup or get more information please email Tylar: mail@tylar.info
-You may also jump right in and contribute to the projects listed below.
+We focus specifically on IMaRS research topics but all are welcome to join in. 
+If you would like to join the workgroup or get more information please email Tylar: `email@tylar.info` .
+Do feel welcome to jump right in and contribute to the projects listed below, open an issue here, or drop in on a meeting using the info below:
+
+2022-spring meeting info:
+We are meeting on most Fridays 14:00-15:30 EST using the following gmeet code (or link) : [https://meet.google.com/try-kzmg-tvf](try-kzmg-tvf).
 
 ----------------------------------------------------------------------
 
