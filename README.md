@@ -54,3 +54,7 @@ Use the various [binder configuration files](https://mybinder.readthedocs.io/en/
 Below is a list of related links that may be helpful.
 
 * [intro to earth & enviro science in python](https://earth-env-data-science.github.io//intro.html) : gives good overview of basic tech like git, jupyter, unix, pandas, xarray, dask. Especially recommended is the "Geoscience package" section on mapping.
+* Getting started with python:
+    * often the best way to learn a language is to dive in and start pursuing a goal. It is for this reason that this workgroup is heavily project-based. However, if you are craving more textbook-style learning then the best place to start is [the official python "Getting Started" page](https://www.python.org/about/gettingstarted/). Additionally:
+    * interactive online courses are available from multiple providers
+    * the ["Hitchiker's Guide to Python"](https://docs.python-guide.org/) is an iconic, well-respected resource that takes a practical pedagological approach.
