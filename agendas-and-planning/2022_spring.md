@@ -6,15 +6,18 @@
 ## 2022-0?-?? | mapping & interpolations???
 Focus on BB3 project interpolations?
 
-## 2022-02-11 | python modules & directory structure???
+## 2022-02-18 | python modules & directory structure???
 Overview of L2 notebooks retooled to become a module.
 * package managers overview
 * installing python on linux
     * pyenv || venv
-* working w/ git submodules
+* [dotis] DwC Lat/Lon, datetime conversion, & pandas df syntax
+* [nicola/sarah] working w/ git submodules
 * directory structure
 * module setup
 * (unit) testing w/ pytest
+
+## 2022-02-11 | NO MEETING
 
 ## 2022-02-04 | GEE + Google Collab
 [Luis](https://github.com/luislizcano) will lead an overview of using google collab (a jupyterhub hosting alternative to mybinder.org) and how to use google earth engine within collab.
