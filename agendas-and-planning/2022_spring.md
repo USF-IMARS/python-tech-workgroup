@@ -6,16 +6,26 @@
 ## 2022-0?-?? | mapping & interpolations???
 Focus on BB3 project interpolations?
 
-## 2022-02-18 | python modules & directory structure???
+## 2022-03-04
+* (unit) testing w/ pytest using L2 as example
+
+## 2022-02-25 | python modules & directory structure???
 Overview of L2 notebooks retooled to become a module.
+
+https://github.com/USF-IMARS/l2-processing/issues/2
+
 * package managers overview
 * installing python on linux
     * pyenv || venv
-* [dotis] DwC Lat/Lon, datetime conversion, & pandas df syntax
 * [nicola/sarah] working w/ git submodules
 * directory structure
 * module setup
-* (unit) testing w/ pytest
+
+* ? [dotis] DwC Lat/Lon, datetime conversion, & pandas df syntax
+
+
+## 2022-02-18 | l2 modulization high-level planning
+Today was a general discussion on creating an l2 module/package.
 
 ## 2022-02-11 | NO MEETING
 
