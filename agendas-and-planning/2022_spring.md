@@ -6,8 +6,35 @@
 ## 2022-0?-?? | mapping & interpolations???
 Focus on BB3 project interpolations?
 
+## 2022-03-11
+do (unit) testing w/ pytest using L2 as example
+
 ## 2022-03-04
-* (unit) testing w/ pytest using L2 as example
+### project updates:
+* BB3 : none
+* l2proc : none
+* anna : none
+
+### covered materials
+* reorganizing l2-proc as a python package
+* creating a test for l2-proc
+* reviewing the pull request for the two items above in l2-proc
+* discussed R vs python tooling comparison. Summary gist [here](https://gist.github.com/7yl4r/ec46dfb38cb5b89d851fea81050958a7)
+* discussed "levels" of python installations from system to user to project
+![cool pyramid](https://files.realpython.com/media/pyenv-pyramid.d2f35a19ded9.png)
+* did a lot of installation steps
+    * installed pyenv to ~/.pyenv from github
+    * installed pyenv-virtualenv plugin to ~/.pyenv/plugins from github
+
+### Tylar's offline TODOs:
+* [ ] finish pyenv setup & summarize setup steps [here](https://github.com/7yl4r/cheatsheets/edit/master/python/distribution-and-deployment.md)
+* [ ] set up l2-proc virtual env on tylar@seashell
+* [ ] create req.txt, req_tes.txt, setup.py, etc for l2-proc
+* [ ] install dependencies (& pytest) in l2-proc tylar@seashell
+* [ ] run pytest & discuss output next time
+
+### additional suggested reading
+* [semantic versioning](https://semver.org/)
 
 ## 2022-02-25 | python modules & directory structure???
 Overview of L2 notebooks retooled to become a module.
