@@ -10,6 +10,22 @@ Focus on BB3 project interpolations?
 do (unit) testing w/ pytest using L2 as example
 
 ## 2022-03-04
+### Tylar's offline TODOs:
+* [x] finish pyenv setup & summarize setup steps [here](https://github.com/7yl4r/cheatsheets/blob/master/python/distribution-and-deployment.md)
+* [x] set up l2-proc virtual env on tylar@seashell
+* [x] ~~create req.txt, req_tes.txt, setup.py, etc~~ Pipfile for l2-proc
+* [x] run pytest & discuss output next time
+
+### Covered today:
+* package managers review [ref table](https://gist.github.com/7yl4r/ec46dfb38cb5b89d851fea81050958a7)
+* pipenv usage
+* ? [nicola/sarah] working w/ git submodules?
+* py package directory structure review
+* ? [dotis] DwC Lat/Lon, datetime conversion, & pandas df syntax
+
+## 2022-02-25 | python package project set up
+Overview of L2 notebooks retooled to become a module [[ref issue](https://github.com/USF-IMARS/l2-processing/issues/2)]
+
 ### project updates:
 * BB3 : none
 * l2proc : none
@@ -26,29 +42,8 @@ do (unit) testing w/ pytest using L2 as example
     * installed pyenv to ~/.pyenv from github
     * installed pyenv-virtualenv plugin to ~/.pyenv/plugins from github
 
-### Tylar's offline TODOs:
-* [ ] finish pyenv setup & summarize setup steps [here](https://github.com/7yl4r/cheatsheets/edit/master/python/distribution-and-deployment.md)
-* [ ] set up l2-proc virtual env on tylar@seashell
-* [ ] create req.txt, req_tes.txt, setup.py, etc for l2-proc
-* [ ] install dependencies (& pytest) in l2-proc tylar@seashell
-* [ ] run pytest & discuss output next time
-
 ### additional suggested reading
 * [semantic versioning](https://semver.org/)
-
-## 2022-02-25 | python modules & directory structure???
-Overview of L2 notebooks retooled to become a module.
-
-https://github.com/USF-IMARS/l2-processing/issues/2
-
-* package managers overview
-* installing python on linux
-    * pyenv || venv
-* [nicola/sarah] working w/ git submodules
-* directory structure
-* module setup
-
-* ? [dotis] DwC Lat/Lon, datetime conversion, & pandas df syntax
 
 
 ## 2022-02-18 | l2 modulization high-level planning
