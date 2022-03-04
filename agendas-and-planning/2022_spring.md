@@ -7,9 +7,11 @@
 Focus on BB3 project interpolations?
 
 ## 2022-03-11
-do (unit) testing w/ pytest using L2 as example
+* ? [dotis] DwC Lat/Lon, datetime conversion, & pandas df syntax
 
 ## 2022-03-04
+no project updates
+
 ### Tylar's offline TODOs:
 * [x] finish pyenv setup & summarize setup steps [here](https://github.com/7yl4r/cheatsheets/blob/master/python/distribution-and-deployment.md)
 * [x] set up l2-proc virtual env on tylar@seashell
@@ -17,11 +19,11 @@ do (unit) testing w/ pytest using L2 as example
 * [x] run pytest & discuss output next time
 
 ### Covered today:
+* example unit testing w/ pytest using L2 as example
 * package managers review [ref table](https://gist.github.com/7yl4r/ec46dfb38cb5b89d851fea81050958a7)
 * pipenv usage
-* ? [nicola/sarah] working w/ git submodules?
+* [nicola/sarah] working w/ git submodules?
 * py package directory structure review
-* ? [dotis] DwC Lat/Lon, datetime conversion, & pandas df syntax
 
 ## 2022-02-25 | python package project set up
 Overview of L2 notebooks retooled to become a module [[ref issue](https://github.com/USF-IMARS/l2-processing/issues/2)]
