@@ -7,7 +7,7 @@ If you would like to join the workgroup or get more information please email Tyl
 Do feel welcome to jump right in and contribute to the projects listed below, open an issue here, or drop in on a meeting using the info below:
 
 2022-spring meeting info:
-We are meeting on most Fridays 14:00-15:30 EST using the following gmeet code (or link) : [https://meet.google.com/try-kzmg-tvf](try-kzmg-tvf).
+We are meeting on most Fridays 14:00-15:30 EST using the following link : [ms teams ln](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZjA2OGUwMjgtYzcxOS00NGM1LWE5ZWUtMTY5YmIyNzFhODRk%40thread.v2/0?context=%7b%22Tid%22%3a%22741bf7de-e2e5-46df-8d67-82607df9deaa%22%2c%22Oid%22%3a%2248c1ad11-ebcb-499e-a1f5-7c3c35c1aba3%22%7d).
 
 ----------------------------------------------------------------------
 
