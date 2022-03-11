@@ -8,6 +8,11 @@ Focus on BB3 project interpolations?
 
 ## 2022-03-11
 * ? [dotis] DwC Lat/Lon, datetime conversion, & pandas df syntax
+* next two meetings without me
+* review of github workflow
+    * issues
+    * CLI usage
+* disucssion: how to better encourage work outside of the workshop?
 
 ## 2022-03-04
 no project updates
