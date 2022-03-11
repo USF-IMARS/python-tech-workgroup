@@ -7,12 +7,35 @@
 Focus on BB3 project interpolations?
 
 ## 2022-03-11
-* ? [dotis] DwC Lat/Lon, datetime conversion, & pandas df syntax
+### working on python-tech-workgroup#32
+#### General approach to installing something on linux:
+1. operating system's package manager (ubuntu : apt)
+2. try to use a different package manager (python : pip, conda)
+3. build from source (download src code, `make`)
+4. run some arbritray bash script (`curl` then execute)
+
+#### install
+* [x] install pip & pipenv
+* [x] generate new ssh key. instructions [here](https://github.com/7yl4r/cheatsheets#ssh)
+* [x] add the public part of the new key pair to GitHub
+* [x] download the code to manglilloo: `git clone git@github.com:USF-IMARS/l2-processing.git`
+* [x] `cd` in there and make sure everything looks right (try using `ls`, `pwd`, `git status`, etc)
+* [ ] TODO (tylar): figure out what step is missing so that the install works
+* [ ] install the package using the Pipfile: `python -m pipenv install`
+* [ ] run the tests `pytest` command
+ 
+#### git CLI + github workflow
+* make changes to the files
+* `git status` to see what is changed (also use `git diff` if you like)
+* use `git add` if needed. 
+* `git pull` to be sure your local is up-to-date w/ github's
+* `git commit -a -m 'my commit message here'` to create a save point 
+* `git push` to send your changes to github
+
+### other stuff
 * next two meetings without me
-* review of github workflow
-    * issues
-    * CLI usage
 * disucssion: how to better encourage work outside of the workshop?
+    * chat? slack | gitter | other?
 
 ## 2022-03-04
 no project updates
