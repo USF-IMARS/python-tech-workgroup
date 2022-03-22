@@ -2,6 +2,7 @@
 
 ## 2022-0?-?? | Ben's extractR
 * TODO: bother @bbest
+* covariograms in python. w/ [scikit-gstat](https://scikit-gstat.readthedocs.io/en/latest/userguide/variogram.html)?
 
 ## 2022-0?-?? | mapping & interpolations???
 Focus on BB3 project interpolations?
