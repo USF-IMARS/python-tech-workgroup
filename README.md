@@ -21,11 +21,12 @@ Once it has loaded you can open the `.ipynb` project files and explore.
 ## Projects
 Workgroup memebers are currently working on the following projects:
 
-project title                                                | members   | description
------------------------------------------------------------- | --------- | -----------------
-[L2 processing](https://github.com/USF-IMARS/l2-processing)  | Dan       | processing MATLAB -> Python. streamline seascape products, working w/ Joaquin, grabbing extant from ERDDAP. doing the L2 processing, create means, do mapping.
-[BB3 matchup](https://github.com/USF-IMARS/bb3_matchup)      | Sebastian | WS cruise align backscatter & depth data
-[gee_notebooks](https://github.com/USF-IMARS/gee_notebooks)  | Luis      | analyses using GEE products, 3d wetlands data, & seagrass occurrences
+project title                                                | leads            | description
+------------------------------------------------------------ | ---------------- | -----------------
+[L2 processing](https://github.com/USF-IMARS/l2-processing)  | Dan              | processing MATLAB -> Python. streamline seascape products, working w/ Joaquin, grabbing extant from ERDDAP. doing the L2 processing, create means, do mapping.
+[BB3 matchup](https://github.com/USF-IMARS/bb3_matchup)      | Sebastian        | WS cruise align backscatter & depth data
+[gee_notebooks](https://github.com/USF-IMARS/gee_notebooks)  | Luis             | analyses using GEE products, 3d wetlands data, & seagrass occurrences
+[chemtax v2+](https://github.com/USF-IMARS/chemtax)          | Tylar, Sebastian | Phytoplankton estimates from spectral data in colloaboration w/ the Australian Antarctic Division & Simon Wright 
 
 ----------------------------------------------------------------------
 
