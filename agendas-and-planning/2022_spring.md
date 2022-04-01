@@ -7,6 +7,9 @@
 ## 2022-0?-?? | mapping & interpolations???
 Focus on BB3 project interpolations?
 
+## 2022-0?-?? | project managment
+* github notifications, "watching", discussions overview
+
 ## 2022-03-11
 ### working on python-tech-workgroup#32
 #### General approach to installing something on linux:
