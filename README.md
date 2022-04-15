@@ -51,6 +51,18 @@ Use the various [binder configuration files](https://mybinder.readthedocs.io/en/
 
 ----------------------------------------------------------------------
 
+## The Jupyter + MyBinder + GitHub workflow
+Files created in MyBinder will **not** be saved!
+In order to save your changes for later you must follow these steps:
+
+1. Store your code on GitHub
+2. Open mybinder.org to run your code on a server
+3. edit & test code on mybinder
+4. download the files from mybinder
+5. upload those files to GitHub
+
+----------------------------------------------------------------------
+
 ### additional resources
 Below is a list of related links that may be helpful.
 
