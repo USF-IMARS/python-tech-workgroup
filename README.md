@@ -32,7 +32,7 @@ project title                                                | leads            
 
 ## New Project Setup Steps:
 This is a guide for creating your own new project repository:
-1. create a new github repository via the github GUI
+1. create a new github repository via the github website
 2. (optional) create a README.md, LICENCE, .gitignore, etc
 3. create an `environment.yml` file to specify dependencies (see below for more details)
 4. (optional) create other jupyter config files (see below for details)
