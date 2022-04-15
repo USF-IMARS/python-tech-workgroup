@@ -27,6 +27,7 @@ project title                                                | leads            
 [BB3 matchup](https://github.com/USF-IMARS/bb3_matchup)      | Sebastian        | WS cruise align backscatter & depth data
 [gee_notebooks](https://github.com/USF-IMARS/gee_notebooks)  | Luis             | analyses using GEE products, 3d wetlands data, & seagrass occurrences
 [chemtax v2+](https://github.com/USF-IMARS/chemtax)          | Tylar, Sebastian | Phytoplankton estimates from spectral data in colloaboration w/ the Australian Antarctic Division & Simon Wright 
+[OBISdataManagement](https://github.com/cperaltab/OBISdataManagement) | Carolina | OBIS data management experiments
 
 ----------------------------------------------------------------------
 
