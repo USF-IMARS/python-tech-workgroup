@@ -66,7 +66,7 @@ In order to save your changes for later you must follow these steps:
 
 ### additional resources
 Below is a list of related links that may be helpful.
-
+* [project pythia : python+geosciences community learning material](https://foundations.projectpythia.org/landing-page.html)
 * [intro to earth & enviro science in python](https://earth-env-data-science.github.io//intro.html) : gives good overview of basic tech like git, jupyter, unix, pandas, xarray, dask. Especially recommended is the "Geoscience package" section on mapping.
 * Getting started with python:
     * often the best way to learn a language is to dive in and start pursuing a goal. It is for this reason that this workgroup is heavily project-based. However, if you are craving more textbook-style learning then the best place to start is [the official python "Getting Started" page](https://www.python.org/about/gettingstarted/). Additionally:
